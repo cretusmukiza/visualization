@@ -1,0 +1,27 @@
+select{
+    width:12%;
+    padding:0.5rem;
+    margin-top:1rem;
+    margin-left:0.2%;
+    margin-bottom: 1.5%;
+    background: #2979FF;
+    border:1px solid #2979FF;
+    color:white;
+
+}
+select:active{
+    outline:none;
+    box-shadow: none;
+    font-weight: 700
+}
+select option:hover{
+    background:white;
+    color:black;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+.my-pretty-chart-container{
+    font-family: 'Quicksand', sans-serif;
+
+}

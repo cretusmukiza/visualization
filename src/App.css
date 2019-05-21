@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+
+
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden
+  
+
+}
+nav{
+  display: flex;
+  height:10vh;
+  background:#0288D1;
+  margin-bottom: 10rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width:100%;
+  margin-bottom: 0;
+
+}
+nav a{
+  color:white;
+  margin-left:2rem;
+  text-decoration: none;
+  
+}
+nav a:last-child{
+  margin-right:2rem;
+}
+.active{
+  color:#B3E5FC
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .app{
+    min-height: 100vh;
+    height: auto;
+    overflow-y: scroll;
+  }
+  nav{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    height:20vh;
+  }
+  nav a{
+    margin-right:none;
+    margin-bottom:1rem;
+  }
+  nav a:first-child{
+    margin-top:1rem;
+  }
+  select{
+    width:50%;
+  }
+}
