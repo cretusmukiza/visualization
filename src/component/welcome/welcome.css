@@ -27,7 +27,7 @@
     font-size:1.2rem;
 }
 .upper-nav a:first-child svg{
-    color:#1389E7;
+    color: #01BC8C;
 }
 .upper-nav a:last-child{
     color:#6D6D6D;
@@ -49,15 +49,15 @@
     padding:0;
    
 }
-.lower-nav ul li{
+.lower-nav ul a{
     margin-right: 1.7rem;
 }
-.lower-nav ul li a{
+.lower-nav ul  a{
     font-size: 0.9rem;
     text-decoration: none;
     color:#797979;
 }
-.lower-nav ul li a svg{
+.lower-nav ul  a svg{
     margin-right: 0.4rem
 }
 .welcome-menu{
@@ -67,7 +67,7 @@
     height:auto
 }
 .active{
-    color:red;
+    color: #01BC8C;
 }
 @media only screen and (max-width:960px){
     .upper-nav a{

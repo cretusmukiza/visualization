@@ -8,11 +8,12 @@ import Welcome from '../src/component/welcome/welcome';
 const Routes=()=>{
     return(
         <Switch>
-            <Route path="/regionchart" component={RegionChart} />
+            <Route exact path="/" component={RegionChart} />
+            <Route  path="/regionchart" component={RegionChart} />
             <Route path="/schoolchart" component={SchoolChart} />
             <Route path="/genderchart" component={GenderChart} />
             <Route path="/districtchart" component={DistrictChart} />
-            <Route exact path="/" component={Welcome} />
+         
         </Switch>
     )
 

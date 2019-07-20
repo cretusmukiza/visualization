@@ -67,7 +67,7 @@ class SchoolChart extends Component{
         const linedata=_.sortedUniq(regions);    
         console.log(this.state.width);
         const width=window.innerWidth
-        var screenWidth="80%";
+        var screenWidth="103%";
         var screeHeight="400px"  
         if(width<600){
          screenWidth="100%";
@@ -102,7 +102,8 @@ class SchoolChart extends Component{
             vAxis:{
                 minValue:10,
                 maxValue:100
-            }
+            },
+            colors: ['green'],
      
             },
             }}

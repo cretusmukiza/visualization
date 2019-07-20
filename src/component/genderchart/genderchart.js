@@ -92,6 +92,7 @@ class GenderChart extends Component{
                     data={this.state.data}
                     options={{  
                      // Material design options
+                    colors: ['#1B5E20', '#81C784'],
                     chart: {
                      title: ` school dropout vs gender(${this.state.region} REGION)`
      

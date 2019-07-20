@@ -21,11 +21,10 @@ class  Nav extends Component{
         </div>
         <div className="lower-nav">
             <ul>
-                <li><NavLink activeClassName="active" to="/welcome"><FontAwesomeIcon icon="university" />Home</NavLink></li>
-                <li><NavLink activeClassName="active" to="/regionchart"><FontAwesomeIcon icon="chart-bar" />Regionchart</NavLink></li>
-                <li><NavLink activeClassName="active" to="/districtchart"><FontAwesomeIcon icon="chart-line" />Districtchart</NavLink></li>
-                <li><NavLink activeClassName="active" to="/schoolchart"><FontAwesomeIcon icon="chart-area" />Schoolchart</NavLink></li>
-                <li><NavLink activeClassName="active" to="/genderchart"><FontAwesomeIcon icon="chart-pie" />Genderchart</NavLink></li>
+            <NavLink activeClassName="active" to="/regionchart"><FontAwesomeIcon icon="chart-bar" />Regionchart</NavLink>
+            <NavLink activeClassName="active" to="/districtchart"><FontAwesomeIcon icon="chart-line" />Districtchart</NavLink>
+            <NavLink activeClassName="active" to="/schoolchart"><FontAwesomeIcon icon="chart-area" />Schoolchart</NavLink>
+            <NavLink activeClassName="active" to="/genderchart"><FontAwesomeIcon icon="chart-pie" />Genderchart</NavLink>
             </ul>
         </div>
         </div>

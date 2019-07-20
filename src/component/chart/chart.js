@@ -1,3 +1,4 @@
+
 import React,{Component} from 'react';
 import {Chart} from 'react-google-charts';
 import {data} from '../../data.js';
@@ -67,13 +68,14 @@ class RegionChart extends Component{
             <div className="welcome-menu">
             <div className={"my-pretty-chart-container"} >
             <Chart
-            width="103%"
-            height="400px"
+            width={screenWidth}
+            height={screeHeight}
             chartType="Bar"
             loader={<div>Loading Chart</div>}
             data={finalUser}
             options={{  
              // Material design options
+            color: '#81C784',
             chart: {
             title: 'Total dropout vs Region',
      

@@ -34,9 +34,7 @@ nav a{
 nav a:last-child{
   margin-right:2rem;
 }
-.active{
-  color:#B3E5FC
-}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;

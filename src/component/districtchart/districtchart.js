@@ -9,7 +9,8 @@ class DistrictChart extends Component{
     constructor(props){
         super(props);
         this.state={
-             width:"180%"
+             width:"180%",
+             region:'Tanzania'
         }   
     }
  
@@ -71,7 +72,7 @@ class DistrictChart extends Component{
                         finalUser
                 }
                 options={{
-                title: `Dropout in  districts of ${this.state.region} region`,
+                title: `Dropout in  districts of ${this.state.region} `,
                 pieHole:0.3,
                 is3D:false
                  }}
